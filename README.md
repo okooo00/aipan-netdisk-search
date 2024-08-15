@@ -1,13 +1,16 @@
-# 爱盼-网盘资源搜索Web
-爱盼-网盘资源搜索：是一个免费开源项目!
-👉 [爱盼-网盘资源搜索](https://so.aicompasspro.com)
+# 小鱼盘-网盘资源搜索 Web
+
+小鱼盘-网盘资源搜索：是一个免费开源项目!
+👉 [小鱼盘-网盘资源搜索](https://so.aicompasspro.com)
 
 ### 建议
-项目使用的是第三方的API，对ip有访问限制，建议自己部署使用。
+
+项目使用的是第三方的 API，对 ip 有访问限制，建议自己部署使用。
 
 ## 快速开始
 
 ### 在 Vercel 上部署
+
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/unilei/aipan-netdisk-search.git&project-name=aipan-netdisk-search&repository-name=aipan-netdisk-search)
 
 ### 在 Vercel 上手动部署 操作方法
@@ -19,7 +22,7 @@
 4. 然后直接点 [Deploy] 接着等部署完成即可
 ```
 
-### Docker执行
+### Docker 执行
 
 #### docker cli
 
@@ -28,11 +31,13 @@
 ```bash
 docker build -t unilei/aipan-netdisk-search:latest .
 ```
+
 ##### 运行
 
 ```bash
 docker run -p 3000:3000 unilei/aipan-netdisk-search:latest
 ```
+
 ##### 停止
 
 ```bash
@@ -46,6 +51,7 @@ docker stop unilei/aipan-netdisk-search:latest
 ```bash
 docker compose build
 ```
+
 ##### 运行
 
 ```bash
@@ -65,6 +71,7 @@ git clone https://github.com/unilei/aipan-netdisk-search.git
 ```
 
 ### 2. 安装依赖
+
 ```bash
 # npm
 npm install
@@ -75,6 +82,7 @@ pnpm install
 # yarn
 yarn install
 ```
+
 ### 3. 运行到浏览器
 
 ```bash
@@ -89,14 +97,18 @@ yarn dev
 ```
 
 ### 4. 在浏览器打开 [http://localhost:3001](http://localhost:3001)
+
 ![success_deploy.jpg](/assets/readme/screen-1.png)
 ![success_deploy.jpg](/assets/readme/screen-2.png)
 
 #### 如何部署到自己服务器？ NUXT.JS 打包部署文档
+
 [部署文档](https://nuxt.com/docs/getting-started/deployment)
 
 ### 打赏
+
 <img src="/assets/donation/wechat_pay.jpg" width=200  />
 
 ### 交流
+
 <img src="/assets/readme/wechat.jpg" width=200  />
